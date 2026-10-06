@@ -36,6 +36,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--host", default="127.0.0.1", help="Server bind address")
     parser.add_argument("--port", type=int, default=8080, help="Server port")
     parser.add_argument("--slot-context", type=int, default=2048, help="Context budget per parallel slot")
+    parser.add_argument(
+        "--server-parallel",
+        type=int,
+        default=0,
+        help="Server slot count; 0 means use --concurrency. Set lower than --concurrency to measure queueing.",
+    )
     parser.add_argument("--ctx-size", type=int, default=0, help="Total server context; 0 means slot-context x concurrency")
     parser.add_argument("--batch-size", type=int, default=2048, help="Server logical batch size")
     parser.add_argument("--ubatch-size", type=int, default=512, help="Server physical batch size")
@@ -89,7 +95,8 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def server_command(args: argparse.Namespace, output_dir: Path) -> list[str]:
-    ctx_size = args.ctx_size or args.slot_context * args.concurrency
+    server_parallel = args.server_parallel or args.concurrency
+    ctx_size = args.ctx_size or args.slot_context * server_parallel
     command = [
         args.server,
         "--model",
@@ -101,7 +108,7 @@ def server_command(args: argparse.Namespace, output_dir: Path) -> list[str]:
         "--ctx-size",
         str(ctx_size),
         "--parallel",
-        str(args.concurrency),
+        str(server_parallel),
         "--batch-size",
         str(args.batch_size),
         "--ubatch-size",
@@ -178,6 +185,7 @@ async def run(args: argparse.Namespace) -> int:
                 "port": args.port,
                 "ctx_size": args.ctx_size or args.slot_context * args.concurrency,
                 "slot_context": args.slot_context,
+                "server_parallel": args.server_parallel or args.concurrency,
                 "batch_size": args.batch_size,
                 "ubatch_size": args.ubatch_size,
                 "n_gpu_layers": args.n_gpu_layers,

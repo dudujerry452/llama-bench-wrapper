@@ -60,6 +60,19 @@ nix develop --command python3 bench/run_server_bench.py \
   --output-dir bench/results/cpu-c1-mixed
 ```
 
+排队/slot 调度测试时，让客户端并发数大于 server slot 数：
+
+```bash
+nix develop --command python3 bench/run_server_bench.py \
+  --model /path/to/model.gguf \
+  --concurrency 8 \
+  --server-parallel 4 \
+  --requests 400 \
+  --workload mixed \
+  --n-gpu-layers 0 \
+  --output-dir bench/results/queue-c8-s4-mixed
+```
+
 并发扫描：
 
 ```bash
@@ -89,6 +102,7 @@ done
 ```text
 workload: mixed, same-env --env env-00, prefix-local
 concurrency: 1, 2, 4, 8
+server_parallel: same as concurrency for saturation throughput; fixed at 4 with concurrency 8/16 for queueing
 cache_prompt: on, off
 pin_slots: on, off
 ```
