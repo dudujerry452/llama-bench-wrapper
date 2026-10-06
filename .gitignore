@@ -7,3 +7,5 @@ result
 llama.cpp/
 实验记录/**/*.media/
 实验记录/**/*.docx
+
+models/*.gguf
