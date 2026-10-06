@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-24",
+  "layout_index": 24,
+  "anchor_room": "entryway",
+  "rooms": {
+    "entryway": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "hallway": [
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system"
+    ],
+    "patio": [
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ]
+  },
+  "layout_signature": "ea339010d1e0ed56",
+  "service_pairs": [
+    "air_conditioner.entryway",
+    "air_purifier.entryway",
+    "cleaning_robot.entryway",
+    "cleaning_robot.hallway",
+    "coffee_machine.entryway",
+    "coffee_machine.hallway",
+    "curtain.entryway",
+    "curtain.hallway",
+    "fan.entryway",
+    "fan.hallway",
+    "fresh_air_ventilation_system.entryway",
+    "fresh_air_ventilation_system.hallway",
+    "humidifier.entryway",
+    "humidifier.patio",
+    "light.entryway",
+    "light.patio",
+    "lock.entryway",
+    "lock.patio",
+    "media_player.entryway",
+    "media_player.patio"
+  ]
+}

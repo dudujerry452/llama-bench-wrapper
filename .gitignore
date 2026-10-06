@@ -1,0 +1,9 @@
+bench/results/
+bench/__pycache__/
+__pycache__/
+.direnv/
+result
+*.pyc
+llama.cpp/
+实验记录/**/*.media/
+实验记录/**/*.docx

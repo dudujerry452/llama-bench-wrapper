@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-15",
+  "layout_index": 15,
+  "anchor_room": "home_cinema",
+  "rooms": {
+    "home_cinema": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "workshop": [
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light"
+    ],
+    "office": [
+      "air_conditioner",
+      "air_purifier",
+      "lock",
+      "media_player"
+    ]
+  },
+  "layout_signature": "11d4347093230dfa",
+  "service_pairs": [
+    "air_conditioner.home_cinema",
+    "air_conditioner.office",
+    "air_purifier.home_cinema",
+    "air_purifier.office",
+    "cleaning_robot.home_cinema",
+    "coffee_machine.home_cinema",
+    "curtain.home_cinema",
+    "curtain.workshop",
+    "fan.home_cinema",
+    "fan.workshop",
+    "fresh_air_ventilation_system.home_cinema",
+    "fresh_air_ventilation_system.workshop",
+    "humidifier.home_cinema",
+    "humidifier.workshop",
+    "light.home_cinema",
+    "light.workshop",
+    "lock.home_cinema",
+    "lock.office",
+    "media_player.home_cinema",
+    "media_player.office"
+  ]
+}

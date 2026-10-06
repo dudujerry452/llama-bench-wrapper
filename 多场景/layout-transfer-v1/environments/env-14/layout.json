@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-14",
+  "layout_index": 14,
+  "anchor_room": "game_room",
+  "rooms": {
+    "game_room": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "sunroom": [
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier"
+    ],
+    "bedroom": [
+      "air_conditioner",
+      "light",
+      "lock",
+      "media_player"
+    ]
+  },
+  "layout_signature": "30369778b72f4634",
+  "service_pairs": [
+    "air_conditioner.bedroom",
+    "air_conditioner.game_room",
+    "air_purifier.game_room",
+    "cleaning_robot.game_room",
+    "coffee_machine.game_room",
+    "coffee_machine.sunroom",
+    "curtain.game_room",
+    "curtain.sunroom",
+    "fan.game_room",
+    "fan.sunroom",
+    "fresh_air_ventilation_system.game_room",
+    "fresh_air_ventilation_system.sunroom",
+    "humidifier.game_room",
+    "humidifier.sunroom",
+    "light.bedroom",
+    "light.game_room",
+    "lock.bedroom",
+    "lock.game_room",
+    "media_player.bedroom",
+    "media_player.game_room"
+  ]
+}

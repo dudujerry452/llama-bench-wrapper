@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-04",
+  "layout_index": 4,
+  "anchor_room": "bathroom",
+  "rooms": {
+    "bathroom": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "attic": [
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light"
+    ],
+    "laundry_room": [
+      "air_conditioner",
+      "air_purifier",
+      "lock",
+      "media_player"
+    ]
+  },
+  "layout_signature": "b6ad8f07527a54d7",
+  "service_pairs": [
+    "air_conditioner.bathroom",
+    "air_conditioner.laundry_room",
+    "air_purifier.bathroom",
+    "air_purifier.laundry_room",
+    "cleaning_robot.bathroom",
+    "coffee_machine.bathroom",
+    "curtain.attic",
+    "curtain.bathroom",
+    "fan.attic",
+    "fan.bathroom",
+    "fresh_air_ventilation_system.attic",
+    "fresh_air_ventilation_system.bathroom",
+    "humidifier.attic",
+    "humidifier.bathroom",
+    "light.attic",
+    "light.bathroom",
+    "lock.bathroom",
+    "lock.laundry_room",
+    "media_player.bathroom",
+    "media_player.laundry_room"
+  ]
+}

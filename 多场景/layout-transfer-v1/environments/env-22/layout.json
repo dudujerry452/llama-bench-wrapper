@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-22",
+  "layout_index": 22,
+  "anchor_room": "workshop",
+  "rooms": {
+    "workshop": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "bathroom": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain"
+    ],
+    "basement": [
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light"
+    ]
+  },
+  "layout_signature": "7375931604e5e731",
+  "service_pairs": [
+    "air_conditioner.bathroom",
+    "air_conditioner.workshop",
+    "air_purifier.bathroom",
+    "air_purifier.workshop",
+    "cleaning_robot.bathroom",
+    "cleaning_robot.workshop",
+    "coffee_machine.bathroom",
+    "coffee_machine.workshop",
+    "curtain.bathroom",
+    "curtain.workshop",
+    "fan.basement",
+    "fan.workshop",
+    "fresh_air_ventilation_system.basement",
+    "fresh_air_ventilation_system.workshop",
+    "humidifier.basement",
+    "humidifier.workshop",
+    "light.basement",
+    "light.workshop",
+    "lock.workshop",
+    "media_player.workshop"
+  ]
+}

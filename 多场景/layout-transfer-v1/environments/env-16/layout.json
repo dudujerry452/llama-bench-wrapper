@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-16",
+  "layout_index": 16,
+  "anchor_room": "nursery",
+  "rooms": {
+    "nursery": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "greenhouse": [
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock"
+    ],
+    "bathroom": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "media_player"
+    ]
+  },
+  "layout_signature": "6fc4af7152ed8ee0",
+  "service_pairs": [
+    "air_conditioner.bathroom",
+    "air_conditioner.nursery",
+    "air_purifier.bathroom",
+    "air_purifier.nursery",
+    "cleaning_robot.bathroom",
+    "cleaning_robot.nursery",
+    "coffee_machine.nursery",
+    "curtain.nursery",
+    "fan.greenhouse",
+    "fan.nursery",
+    "fresh_air_ventilation_system.greenhouse",
+    "fresh_air_ventilation_system.nursery",
+    "humidifier.greenhouse",
+    "humidifier.nursery",
+    "light.greenhouse",
+    "light.nursery",
+    "lock.greenhouse",
+    "lock.nursery",
+    "media_player.bathroom",
+    "media_player.nursery"
+  ]
+}

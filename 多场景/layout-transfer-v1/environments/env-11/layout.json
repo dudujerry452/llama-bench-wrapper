@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-11",
+  "layout_index": 11,
+  "anchor_room": "attic",
+  "rooms": {
+    "attic": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "gym": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain"
+    ],
+    "entryway": [
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light"
+    ]
+  },
+  "layout_signature": "af6cb45a4070fe7f",
+  "service_pairs": [
+    "air_conditioner.attic",
+    "air_conditioner.gym",
+    "air_purifier.attic",
+    "air_purifier.gym",
+    "cleaning_robot.attic",
+    "cleaning_robot.gym",
+    "coffee_machine.attic",
+    "coffee_machine.gym",
+    "curtain.attic",
+    "curtain.gym",
+    "fan.attic",
+    "fan.entryway",
+    "fresh_air_ventilation_system.attic",
+    "fresh_air_ventilation_system.entryway",
+    "humidifier.attic",
+    "humidifier.entryway",
+    "light.attic",
+    "light.entryway",
+    "lock.attic",
+    "media_player.attic"
+  ]
+}

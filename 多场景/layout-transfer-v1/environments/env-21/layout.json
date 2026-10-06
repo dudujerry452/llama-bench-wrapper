@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-21",
+  "layout_index": 21,
+  "anchor_room": "sunroom",
+  "rooms": {
+    "sunroom": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "office": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "media_player"
+    ],
+    "garage": [
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier"
+    ]
+  },
+  "layout_signature": "2c8ae415700fedff",
+  "service_pairs": [
+    "air_conditioner.office",
+    "air_conditioner.sunroom",
+    "air_purifier.office",
+    "air_purifier.sunroom",
+    "cleaning_robot.office",
+    "cleaning_robot.sunroom",
+    "coffee_machine.office",
+    "coffee_machine.sunroom",
+    "curtain.garage",
+    "curtain.sunroom",
+    "fan.garage",
+    "fan.sunroom",
+    "fresh_air_ventilation_system.garage",
+    "fresh_air_ventilation_system.sunroom",
+    "humidifier.garage",
+    "humidifier.sunroom",
+    "light.sunroom",
+    "lock.sunroom",
+    "media_player.office",
+    "media_player.sunroom"
+  ]
+}

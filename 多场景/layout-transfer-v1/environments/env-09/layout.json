@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-09",
+  "layout_index": 9,
+  "anchor_room": "garage",
+  "rooms": {
+    "garage": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "nursery": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "lock",
+      "media_player"
+    ],
+    "workshop": [
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system"
+    ]
+  },
+  "layout_signature": "6b47da3bd66d5e5f",
+  "service_pairs": [
+    "air_conditioner.garage",
+    "air_conditioner.nursery",
+    "air_purifier.garage",
+    "air_purifier.nursery",
+    "cleaning_robot.garage",
+    "cleaning_robot.nursery",
+    "coffee_machine.garage",
+    "coffee_machine.workshop",
+    "curtain.garage",
+    "curtain.workshop",
+    "fan.garage",
+    "fan.workshop",
+    "fresh_air_ventilation_system.garage",
+    "fresh_air_ventilation_system.workshop",
+    "humidifier.garage",
+    "light.garage",
+    "lock.garage",
+    "lock.nursery",
+    "media_player.garage",
+    "media_player.nursery"
+  ]
+}

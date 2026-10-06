@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-10",
+  "layout_index": 10,
+  "anchor_room": "basement",
+  "rooms": {
+    "basement": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "laundry_room": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "media_player"
+    ],
+    "greenhouse": [
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier"
+    ]
+  },
+  "layout_signature": "b87832b71f194bef",
+  "service_pairs": [
+    "air_conditioner.basement",
+    "air_conditioner.laundry_room",
+    "air_purifier.basement",
+    "air_purifier.laundry_room",
+    "cleaning_robot.basement",
+    "cleaning_robot.laundry_room",
+    "coffee_machine.basement",
+    "coffee_machine.laundry_room",
+    "curtain.basement",
+    "curtain.greenhouse",
+    "fan.basement",
+    "fan.greenhouse",
+    "fresh_air_ventilation_system.basement",
+    "fresh_air_ventilation_system.greenhouse",
+    "humidifier.basement",
+    "humidifier.greenhouse",
+    "light.basement",
+    "lock.basement",
+    "media_player.basement",
+    "media_player.laundry_room"
+  ]
+}

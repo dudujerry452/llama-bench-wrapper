@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-05",
+  "layout_index": 5,
+  "anchor_room": "dining_room",
+  "rooms": {
+    "dining_room": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "patio": [
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock"
+    ],
+    "gym": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "media_player"
+    ]
+  },
+  "layout_signature": "8b7e546cbcbb5894",
+  "service_pairs": [
+    "air_conditioner.dining_room",
+    "air_conditioner.gym",
+    "air_purifier.dining_room",
+    "air_purifier.gym",
+    "cleaning_robot.dining_room",
+    "cleaning_robot.gym",
+    "coffee_machine.dining_room",
+    "curtain.dining_room",
+    "fan.dining_room",
+    "fan.patio",
+    "fresh_air_ventilation_system.dining_room",
+    "fresh_air_ventilation_system.patio",
+    "humidifier.dining_room",
+    "humidifier.patio",
+    "light.dining_room",
+    "light.patio",
+    "lock.dining_room",
+    "lock.patio",
+    "media_player.dining_room",
+    "media_player.gym"
+  ]
+}

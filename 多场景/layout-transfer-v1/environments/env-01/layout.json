@@ -1,0 +1,56 @@
+{
+  "environment_id": "env-01",
+  "layout_index": 1,
+  "anchor_room": "kitchen",
+  "rooms": {
+    "kitchen": [
+      "air_conditioner",
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan",
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock",
+      "media_player"
+    ],
+    "playroom": [
+      "air_purifier",
+      "cleaning_robot",
+      "coffee_machine",
+      "curtain",
+      "fan"
+    ],
+    "game_room": [
+      "fresh_air_ventilation_system",
+      "humidifier",
+      "light",
+      "lock"
+    ]
+  },
+  "layout_signature": "086778c218305ead",
+  "service_pairs": [
+    "air_conditioner.kitchen",
+    "air_purifier.kitchen",
+    "air_purifier.playroom",
+    "cleaning_robot.kitchen",
+    "cleaning_robot.playroom",
+    "coffee_machine.kitchen",
+    "coffee_machine.playroom",
+    "curtain.kitchen",
+    "curtain.playroom",
+    "fan.kitchen",
+    "fan.playroom",
+    "fresh_air_ventilation_system.game_room",
+    "fresh_air_ventilation_system.kitchen",
+    "humidifier.game_room",
+    "humidifier.kitchen",
+    "light.game_room",
+    "light.kitchen",
+    "lock.game_room",
+    "lock.kitchen",
+    "media_player.kitchen"
+  ]
+}
